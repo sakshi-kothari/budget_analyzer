@@ -1,4 +1,4 @@
-# Budget Analyzing Website — Hardened Edition
+# Budget Analyzing Website 
 
 This repo contains a React + Express + MongoDB app to track income/expenses with filters and analytics.
 
@@ -24,11 +24,6 @@ npm run server
 cd client && npm start
 ```
 
-- React app: http://localhost:3000  
-- API health: http://localhost:5000/api/health
 
-> First time you add a user/transaction, Atlas will show collections under your database (e.g., `budget.users`, `budget.transactions`).
 
-## Notes
-- Existing frontend remains compatible. It will store `{...user, token}` on login.
-- Transactions routes will use `req.userId` from the token **if present**; otherwise they fall back to `req.body.userid` (legacy).
+
