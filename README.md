@@ -2,12 +2,6 @@
 
 This repo contains a React + Express + MongoDB app to track income/expenses with filters and analytics.
 
-## What changed in this fork
-- Uses **.env** for secrets (no hardcoded Mongo URI)
-- **Password hashing (bcrypt)** and **JWT login**; transactions can accept either `userid` in body (legacy) or token
-- `Transaction.amount` is a **Number** (not string); schemas include **timestamps** and useful **indexes**
-- Added `/api/health` endpoint
-- Added `.env.example`, updated `package.json` scripts and dev setup
 
 ## Quick start
 
